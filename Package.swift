@@ -12,6 +12,6 @@ let package = Package(
             targets: ["MSGraphClientModels"]),
     ],
     targets: [
-        .binaryTarget(name: "MSGraphClientModels", url: "https://github.com/kebbbnnn/msgraph-sdk-objc-models/releases/download/1.0.1-spm/MSGraphClientModels.xcframework.zip", checksum: "f7fb7357ff70a9e0bbe9c3e89c9405a2590276444aaa66205fa73d077fb1af3e") 
+        .binaryTarget(name: "MSGraphClientModels", url: "https://github.com/kebbbnnn/msgraph-sdk-objc-models/releases/download/1.0.2-spm/MSGraphClientModels.xcframework.zip", checksum: "421f6ac137ca7f79a0e06842d30f75a663b6e81cc1698a656697da79aab1c076") 
     ]
 )
