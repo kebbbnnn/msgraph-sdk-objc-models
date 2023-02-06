@@ -83,7 +83,7 @@ static NSString *dateFormat = @"yyyy-MM-dd";
 + (instancetype)ms_dateFromString:(NSString *)dateString
 {
     NSDate *date = nil;
-    if (dateString)
+    if (dateString != (id)[NSNull null])
     {
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
         [dateFormatter setDateFormat:dateFormat];
