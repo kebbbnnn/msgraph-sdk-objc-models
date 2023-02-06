@@ -19,7 +19,7 @@ static NSString *dateFormatWithoutMillis = @"yyyy-MM-dd'T'HH:mm:ssZZZZZ";
 + (instancetype)ms_dateFromString:(NSString *)dateString
 {
     NSDate *date = nil;
-    if (dateString)
+    if (dateString != (id)[NSNull null])
     {
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
         [dateFormatter setDateFormat:dateFormatWithMillis];
